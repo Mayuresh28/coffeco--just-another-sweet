@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Signika:wght@300&display=swap');
+
+
+
+#logo{
+    height: 7vh;
+}
+#cont_1{
+    background-color: whitesmoke;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+#nav_home:hover{
+border-top: 3px solid orange;
+border-right: 3px solid orange;
+border-left: 3px solid orange;
+transition: 500ms;
+}
+#nav_menu:hover{
+border-top: 3px solid orange;
+border-right: 3px solid orange;
+border-left: 3px solid orange;
+transition: 500ms;
+}
+#nav_blog:hover{
+border-top: 3px solid orange;
+border-right: 3px solid orange;
+border-left: 3px solid orange;
+transition: 500ms;
+}
+#nav_shop:hover{
+border-top: 3px solid orange;
+border-right: 3px solid orange;
+border-left: 3px solid orange;
+transition: 500ms;
+}
+#nav_contact:hover{
+border-top: 3px solid orange;
+border-right: 3px solid orange;
+border-left: 3px solid orange;
+transition: 500ms;
+}
+
+#cont1_h1{
+    font-size: 8rem;
+    font-family: 'Dancing Script', cursive;
+}
+#cont1_p1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(250, 118, 3);
+}
+
+#cont1_btn{
+    font-size: 2rem;
+     background-color:  rgb(250, 98, 3);
+     color: white;
+     padding-left: 1.5rem;
+     padding-right: 1.5rem;
+
+}
+#cont2_btn{
+    font-size: 1.5rem;
+     background-color:  rgb(250, 98, 3);
+     color: white;
+     padding-left: 1.5rem;
+     padding-right: 1.5rem;
+
+}
+#cont3_btn{
+    font-size: 1.5rem;
+     background-color:  rgb(250, 98, 3);
+     color: white;
+     padding-left: 1.5rem;
+     padding-right: 1.5rem;
+
+}
+
+@media only screen and (max-width:380px){
+    #cont4_para{
+        display: none;
+    }
+#cont_6{
+    position: relative;
+    top: 70vh !important;
+}
+#cont_7{
+    position: relative;
+    top: 190vh ;
+
+
+    
+   }
+
+
+}
+
+@media only screen and (max-width:700px) {
+    #cont1_h1{
+        font-size: 5rem;
+        font-family: 'Dancing Script', cursive;
+    }
+    #cont1_p1{
+        font-size:1.2rem;
+        font-weight: 600;
+        color: rgb(250, 118, 3);
+    }
+    #cont1_btn{
+        font-size: 1rem;
+         background-color:  rgb(250, 98, 3);
+         color: white;
+         padding-left: 1.5rem;
+         padding-right: 1.5rem;
+    
+    }
+    #cont_1{
+        height: 60vh !important;
+    }
+    #cont_2{
+        height: 40vh !important;
+     
+    }
+    #cont_3{
+        height: 140vh !important;
+        position: relative;
+        top: 80vh !important;
+
+    }
+    #cont_4{
+       
+        position: relative;
+        top: 45vh;
+
+    }
+    #cont_5{
+        position: relative;
+        top: 40vh;
+
+    }
+    #cont_6{
+        position: relative;
+        top: 40vh;
+
+    }
+    #cont2_h3{
+        font-size: 5rem !important;
+        
+    }
+    #cont3_h3{
+        font-size: 5rem !important;
+        
+    }
+    #cont2_btn{
+        font-size: 1.5rem !important ;
+    }
+    #cont3_btn{
+        font-size: 1.5rem !important ;
+    }
+    #cont4_para{
+        font-size: 15px;
+    }
+    #cont5_h3{
+        font-size: 1.5rem !important;
+       
+    
+    }
+    #cont6_h3{
+        font-size: 1.5rem !important;
+       
+    
+    }
+    #cont5-para1{
+      
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        line-height: 40px !important
+        
+        
+    }
+    #cont5-para2{
+        
+        font-size: 20px !important;
+        line-height: 40px !important;
+        font-weight: 400 !important;
+     
+    
+    }
+    
+
+}
+
+@media only screen and (max-width:700px) and (min-width:381px){
+    #cont_7{
+        position: relative;
+        top: 180vh;
+    
+    
+        
+       }
+}
+@media only screen and (max-width:1200px) and (min-width:701px){
+  
+    #cont_1{
+        height: 80vh;
+    }
+    #cont2_btn{
+        font-size: 2rem ;
+    }
+    #cont3_btn{
+        font-size: 2rem ;
+    }
+    #cont_4{
+        height: 130vh !important;
+    }
+    #cont_5{
+        height: 70vh !important;
+
+    }
+    #cont_7{
+     position: relative;
+     top: 200vh;
+    }
+    #cont2_img{
+        display: none;
+    }
+    #cont3_img{
+        display: none;
+    }
+    
+}
+
+
+
+#cont_2{
+    height: 80vh;
+}
+#cont_3{
+    height: 80vh;
+    background-color: #000A2D;
+}
+#cont_4{
+    height: 90vh;
+    color: #000A2D;
+    background-color: whitesmoke;
+}
+#cont_5{
+    height: 90vh;
+    padding: 4rem;
+}
+
+#cont4_para{
+    color: #000A2D;
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+}
+#cont_4_img{
+    border-radius: 40px;
+    background-color: #000A2D;
+}
+#cont2_h3{
+    font-size: 6rem;
+    color: #000A2D;
+    font-family: 'Dancing Script', cursive;
+}
+#cont5_h3{
+    font-size: 3rem;
+    color: #000A2D;
+
+}
+#cont5_h3{
+    font-size: 2.5rem;
+    color: #000A2D;
+
+}
+#cont6_h3{
+    font-size: 2.5rem;
+    color: #000A2D;
+
+}
+#cont3_h3{
+    font-size: 6rem;
+    color:whitesmoke;
+    font-family: 'Dancing Script', cursive;
+}
+#cont2_img{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+#cont3_img{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+#cont2_para{
+    background-color: #000A2D;
+    border-radius: 5rem;
+padding: 4rem;
+color: whitesmoke;
+font-size: 20px;
+font-weight: 400;
+word-spacing: 10px;
+}
+#cont3_para{
+    background-color: whitesmoke;
+    border-radius: 5rem;
+padding: 4rem;
+color: #000A2D;
+font-size: 20px;
+font-weight: 400;
+word-spacing: 10px;
+}
+#cont5-para1{
+    background-color:#010f44f7;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 2rem;
+box-shadow: 5px 4px 8px 2px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#cont5-para2{
+    background-color: #010f44f7;
+    border-radius: 2rem;
+color: whitesmoke;
+font-size: 22px;
+font-weight: 400;
+border-radius: 2rem;
+box-shadow: 5px 4px 8px 2px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#cont_6{
+    height: 90vh;
+    
+}
+#cont_7{
+    height: 100vh;
+    background-color: #000A2D;
+}
+
+.cont4_card{
+    /* border: 3px solid #000A2D; */
+    box-shadow: 5px 4px 8px 2px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-h{
+    font-size: 25px;
+    color: #000A2D;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#last_block_1{
+    font-size: 20px;
+}
+#last_block_2{
+    font-size: 20px;
+}
